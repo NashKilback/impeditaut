@@ -1,0 +1,15 @@
+{
+  "name": "@web3-react/types",
+  "version": "8.0.0-alpha.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "tsc",
+    "start": "tsc --watch"
+  },
+  "peerDependencies": {
+    "zustand": "^3.5.10"
+  }
+}
